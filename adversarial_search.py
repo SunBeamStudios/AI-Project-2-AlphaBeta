@@ -1,5 +1,10 @@
 import math
 
+def min_value(game, state, alpha=None, beta=None):
+    return NotImplementedError
+
+def max_value(game, state, alpha=None, beta=None);
+    return NotImplementedError
 
 def minimax_search(game, state):
     """Implement minimax from pseudocode."""
